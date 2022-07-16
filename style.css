@@ -1,0 +1,122 @@
+ body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+ }  
+   .first-side{
+    background-image: url(donation12.png);
+    background-position: center;
+    background-size: cover;
+    color: rgb(239, 245, 245);
+    height: 500px;
+    text-align: center;
+    padding-top: 200px ;
+}
+.donate-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white; 
+  
+}
+.Donate-Amount{
+    text-align: center; 
+}             
+.amount{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+}
+#default{
+border: 2px solid tomato;
+color:tomato;
+padding: 6px;
+}
+.other-amount{
+    border: 1px solid gray;
+    color: gray;
+    padding: 6px;
+}
+.choose-amount{
+    text-align: center;
+    color: gray;
+}
+
+.donate-plan{
+    display: flex;
+   justify-content: space-around;
+}
+.food{
+    width: 30%; 
+    border: 1px solid gray ;
+    border-radius: 5px;
+    padding: 10px;
+   background-color: cyan;
+   
+}
+.shelter{
+    width: 30%;
+    border: 1px solid rgb(224, 122, 122);
+    border-radius: 5px;
+    padding:10px;
+    background-color: antiquewhite;
+}
+.education{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: bisque;
+}
+.first-donate-pic{
+    display: flex; 
+    justify-content:space-between;
+}
+.humanity{
+    text-align: center;
+    align-self: center;
+    margin-left: 12%;
+}
+.first-pic {
+   margin-right: 12%
+
+}
+.last-donate-pic{
+    display: flex; 
+    justify-content: space-between;
+}
+.charity{
+  text-align: center;
+  align-self: center; 
+  margin-right: 12%;
+}
+.contact {
+    justify-content: center;
+    text-align: center;
+}
+.updates{
+    background-color:oldlace;
+    padding: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.info{
+    display: flex;
+    padding-left: 300px;
+}
+#scbutton{
+    background-color:tomato;
+}
+.end{
+    background-color: rgb(20, 19, 19);
+    padding: 2%;
+}
+#be-merciful{
+    color: red;
+    text-align: center;
+}
+#lets-start{
+    color: white;
+    text-align: center;
+}
